@@ -15,7 +15,9 @@ Providing versions for Linux and Windows.
 - Release Ctrl-V as soon as possible. You have 1 second to release it. (If u will not release it, text will be written as you had pressed Ctrl)
 
 Limitations:
-You try to print `*`, it will print `8` instead. Stuff looks like gets printed only for things
+- You try to print `*`, it will print `8` instead.
+- It looks to be able to handle Capitalizing letters on its own, but watch out for any not ordinary english symbols.
+- Brackets i noticed it is not printing too
 
 # Development.
 
