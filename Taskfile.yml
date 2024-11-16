@@ -1,0 +1,14 @@
+version: "3"
+
+tasks:
+  build:linux:
+    cmds:
+      - mkdir -p dist
+      - rm dist/* | true
+      - GOOS=linux GOARCH=amd64 go build -v -o dist/darkctrlv-linux-amd64 main.go
+
+  build:windows:
+    cmds:
+      - mkdir -p dist
+      - rm dist/* | true
+      - GOOS=windows GOARCH=amd64 go build -v -o dist/darkctrlv-windows-amd64.exe main.go
