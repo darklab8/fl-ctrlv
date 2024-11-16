@@ -5,7 +5,7 @@ Providing versions for Linux and Windows.
 
 # Download
 
-- Insert here link to download
+- [Download from releases](<https://github.com/darklab8/fl-darkctrlv/releases>)
 
 # How to use?
 
