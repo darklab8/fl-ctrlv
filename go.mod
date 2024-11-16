@@ -1,4 +1,4 @@
-module github.com/darklab8/fl-darkctrlv
+module github.com/darklab8/fl-ctrlv
 
 go 1.23.3
 

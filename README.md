@@ -8,7 +8,7 @@ Providing versions for
 
 # Download
 
-- [Download from releases](<https://github.com/darklab8/fl-darkctrlv/releases>)
+- [Download from releases](<https://github.com/darklab8/fl-ctrlv/releases>)
 
 # How to use?
 
