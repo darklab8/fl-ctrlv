@@ -19,6 +19,10 @@ Limitations:
 - It looks to be able to handle Capitalizing letters on its own, but watch out for any not ordinary english symbols.
 - Brackets i noticed it is not printing too
 
+# For other Freelancer dark tools
+
+- [link](<https://darklab8.github.io/blog/community_freelancer.html>)
+
 # Development.
 
 - Build only from OS to which u need it. Cross compiling between OSes leads to weird bugs.
