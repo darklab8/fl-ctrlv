@@ -1,7 +1,10 @@
 # Description
 
 Making Ctrl-V work for the game Freelancer(2003).
-Providing versions for Linux and Windows.
+Providing versions for
+- Windows
+- Linux (X11) (should work Ubuntu at least as it was compiled on it.)
+    - If it will not work for other linuxes... you need to compile it from this specific Linux u have
 
 # Download
 
@@ -53,7 +56,13 @@ sudo apt install libpng++-dev
 sudo apt install xcb libxcb-xkb-dev x11-xkb-utils libx11-xcb-dev libxkbcommon-x11-dev libxkbcommon-dev
 ```
 
-Install the stuff and run task build:linux (if u have installed taskfile.dev), or just check commands inside Taskfile.yml
+Install the stuff and run `task build:linux` (if u have installed taskfile.dev), or just check commands inside Taskfile.yml
+
+
+# Building from other linuxes
+
+See here https://github.com/go-vgo/robotgo?tab=readme-ov-file#requirements what needs to be installed
+then run same command go build command, the same as for ubuntu
 
 # Building from windows
 
