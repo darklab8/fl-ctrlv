@@ -58,7 +58,7 @@ sudo apt install libpng++-dev
 sudo apt install xcb libxcb-xkb-dev x11-xkb-utils libx11-xcb-dev libxkbcommon-x11-dev libxkbcommon-dev
 ```
 
-Install the stuff and run `task build:linux` (if u have installed taskfile.dev), or just check commands inside Taskfile.yml
+Install the stuff and run `task build:linux` (if u have installed taskfile.dev), or just check commands inside [Taskfile.yml](./Taskfile.yml)
 
 
 # Building from other linuxes
@@ -71,7 +71,7 @@ then run same command go build command, the same as for ubuntu
 - Download already built mingw from https://winlibs.com/
 - Unzip to for C:\mingw64
 - and add C:\mingw64\bin folder into `Path` (search for Environment variables in taskbar)
-- task build:windows (or just check commands inside)
+- task build:windows (or just check command to run inside [Taskfile.yml](./Taskfile.yml))
     - builds greats if running the command from `Git Bash` console
 
 # Other useful links
