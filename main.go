@@ -2,6 +2,8 @@ package main
 
 import (
 	"fmt"
+	"os"
+	"strings"
 	"time"
 
 	"github.com/go-vgo/robotgo"
@@ -31,9 +33,27 @@ func add() {
 		fmt.Println("ctrl-v IS PRESSED")
 
 		text := clipboard.Read(clipboard.FmtText)
-		// fmt.Println(string(text))
-		robotgo.TypeStr(string(text))
+
+		title_contains := "Freelancer,Wine"
+		if value, ok := os.LookupEnv("TITLE_CONTAINS"); ok {
+			title_contains = value
+		}
+		title_contains_split := strings.Split(title_contains, ",")
+		active_title := robotgo.GetTitle()
+		game_is_active := false
+
+		for _, title := range title_contains_split {
+			if strings.Contains(strings.ToLower(active_title), strings.ToLower(title)) {
+				game_is_active = true
+			}
+		}
+		if !game_is_active {
+			fmt.Println("Game is not active. Targteting titles=", title_contains)
+			return
+		}
+
 		fmt.Println("invoked TypeStr with", string(text))
+		robotgo.TypeStr(string(text))
 	})
 
 	s := hook.Start()
