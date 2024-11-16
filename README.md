@@ -9,10 +9,10 @@ Providing versions for Linux and Windows.
 
 # How to use?
 
-- Turn it on. (By mouse clickig executor, or from console)
+- Turn it on. (By mouse clicking executor, or from console)
 - Copy some text into your clipboard (Ctrl+C)
 - press Ctrl+V in the game.
-- Release Ctrl-V as soon as possible. You have 1 second to release it. (If u will not release it, text will be written as you had pressed Ctrl)
+- Release Ctrl-V as soon as possible. You have 1 second to release it. (If u will not release it, text will be written as you if u had pressed Ctrl)
 
 Limitations:
 - You try to print `*`, it will print `8` instead.
