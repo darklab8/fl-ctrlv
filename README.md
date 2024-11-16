@@ -14,6 +14,11 @@ Providing versions for Linux and Windows.
 - press Ctrl+V in the game.
 - Release Ctrl-V as soon as possible. You have 1 second to release it. (If u will not release it, text will be written as you if u had pressed Ctrl)
 
+Window Title Targeting:
+- for convenience excluded its working in not Freelancer (or not Wine) windows.
+- it seeks for title to contain "Freelancer" or "Wine".
+- env var TITLE_CONTAINS can override behavior for targeting any other window
+
 Limitations:
 - You try to print `*`, it could print `8` instead potentially (works from Linux correctly)
 - It looks to be able to handle Capitalizing letters on its own, but watch out for any not ordinary english symbols.
